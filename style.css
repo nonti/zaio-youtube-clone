@@ -85,8 +85,8 @@ body {
 }
 
 .category-section {
-       border-bottom: 1px solid #cccccc;
-       margin-top: 10px;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 10px;
 }
 
 .category-section .category:last-child {
@@ -193,7 +193,7 @@ body {
 
 }
 
-.video .video-details p{
+.video .video-details {
     color: #606060;
 }
 
@@ -207,17 +207,19 @@ body {
     width: 36px;
 }
 
-.video .video-title p {
+.video  {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     
 }
 
-.video .posted-by {
-    font: 14px;
-    font-weight: 500;
-    color: #606060;
+.video .posted-by  {
+    font-size: 11px;
+}
+
+.video .views-date {
+    font-size: 11px;
 }
 
 .video .material-icons {
